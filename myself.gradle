@@ -1,0 +1,12 @@
+ext {
+
+    depsVersion = [
+            okhttp: '3.3.0',
+            gson  : '2.8.0',
+    ]
+
+    depsLibs = [
+            okhttp: "com.squareup.okhttp3:okhttp:${depsVersion.okhttp}",
+            gson  : "com.google.code.gson:gson:${depsVersion.gson}",
+    ]
+}
